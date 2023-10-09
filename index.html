@@ -10,7 +10,97 @@
       font-family:'Pixelify Sans';
       text-align: center;
     }
-    
+    body {
+     
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+
+  
+
+.title {
+  font-family: 'Pixelify Sans';
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding-top: 20px;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.hidden {
+  display: none;
+}
+
+.process {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+  color: #000;
+  text-align: center; /* Center the text */
+}
+
+.process h2 {
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.process p {
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+  text-align: center;
+}
+
+.process code {
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 18px;
+  background-color: #f0f0f0; /* Change the code background color */
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #000;
+  text-align: center;
+}
+
+.process pre {
+  background-color: #f0f0f0; /* Change the background color */
+  padding: 10px;
+  border-radius: 5px;
+  overflow: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.process pre code {
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+
 
     .title{
       display:grid;
@@ -106,6 +196,9 @@
     }
     .img-1{
       text-align: right;
+    }
+    .img-2{
+      text-align: left;
     }
     .split-a
     {
@@ -304,32 +397,32 @@
     }
     .arr-2a{
       opacity: 0;
-    animation: fadeIn 0.65s ease-in-out 74s forwards; 
+    animation: fadeIn 0.65s ease-in-out 64s forwards; 
     }
     .down-arr2{
       opacity: 0;
-    animation: fadeIn 0.65s ease-in-out 75s forwards; 
+    animation: fadeIn 0.65s ease-in-out 65s forwards; 
     }
     .c6{
       opacity: 0;
-    animation: fadeIn 0.65s ease-in-out 76s forwards; 
+    animation: fadeIn 0.65s ease-in-out 66s forwards; 
     }
     .down-b-a{
       opacity: 0;
-    animation: fadeIn 0.65s ease-in-out 77s forwards; 
+    animation: fadeIn 0.65s ease-in-out 67s forwards; 
     }
     .c27{
       opacity: 0;
-    animation: fadeIn 0.65s ease-in-out 78s forwards; 
+    animation: fadeIn 0.65s ease-in-out 68s forwards; 
     }
     .final-a,
     .ff{
       opacity: 0;
-    animation: fadeIn 0.65s ease-in-out 79s forwards; 
+    animation: fadeIn 0.65s ease-in-out 69s forwards; 
     }
     .algo{
       opacity: 0;
-    animation: fadeIn 0.65s ease-in-out 80.5s forwards; 
+    animation: fadeIn 0.65s ease-in-out 70.5s forwards; 
     }
 
     
@@ -373,6 +466,9 @@
       visibility: hidden;
     }
 }
+
+
+
 
 
     
@@ -420,25 +516,25 @@
 
         <div class="arrays">
           <div class="a-1">
-             <div style="background-color: grey; padding-top: 16px; border: 3px solid; ">
+             <div style="background-color: rgb(173, 216, 255); padding-top: 16px; border: 3px solid; ">
               5
              </div>
-             <div style="background-color: grey; padding-top: 16px;">
+             <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
               3
              </div>
-             <div style="background-color: grey; padding-top: 16px;">
+             <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
               7
              </div>
-             <div style="background-color: grey; padding-top: 16px;">
+             <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
               2
              </div>
-             <div style="background-color: grey; padding-top: 16px;">
+             <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
               1
              </div>
-             <div style="background-color: grey; padding-top: 16px;">
+             <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
               27
              </div>
-             <div style="background-color: grey; padding-top: 16px;">
+             <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
               6
              </div>
           </div>
@@ -450,25 +546,25 @@
             <br>j searches for element less than pivot and runs from right to left </p>
           </div>
           <div class="a-1a">
-               <div style="background-color: grey; padding-top: 16px; border: 3px solid; ">
+               <div style="background-color: rgb(173, 216, 255); padding-top: 16px; border: 3px solid; ">
                 5
                </div>
-               <div style="background-color: grey; padding-top: 16px;">
+               <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
                 3
                </div>
-               <div style="background-color: grey; padding-top: 16px;">
+               <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
                 7
                </div>
-               <div style="background-color: grey; padding-top: 16px;">
+               <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
                 2
                </div>
-               <div style="background-color: grey; padding-top: 16px;">
+               <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
                 1
                </div>
-               <div style="background-color: grey; padding-top: 16px;">
+               <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
                 27
                </div>
-               <div style="background-color: grey; padding-top: 16px;">
+               <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
                 6
               </div>
             </div>
@@ -503,25 +599,25 @@
           </div>
 
           <div class="a-1b">
-            <div style="background-color: grey; padding-top: 16px; border: 3px solid; ">
+            <div style="background-color: rgb(173, 216, 255); padding-top: 16px; border: 3px solid; ">
              5
             </div>
-            <div style="background-color: grey; padding-top: 16px;">
+            <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
              3
             </div>
-            <div  style="background-color: grey; padding-top: 16px; border: 3px solid; border-color: rgb(253, 2, 2);">
+            <div  style="background-color: rgb(173, 216, 255); padding-top: 16px; border: 3px solid; border-color: rgb(253, 2, 2);">
              7
             </div>
-            <div style="background-color: grey; padding-top: 16px;">
+            <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
              2
             </div>
-            <div style="background-color: grey; padding-top: 16px; border: 3px solid; border-color: rgb(253,2,2);">
+            <div style="background-color: rgb(173, 216, 255); padding-top: 16px; border: 3px solid; border-color: rgb(253,2,2);">
              1
             </div>
-            <div style="background-color: grey; padding-top: 16px;">
+            <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
              27
             </div>
-            <div style="background-color: grey; padding-top: 16px;">
+            <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
              6
            </div>
           
@@ -529,25 +625,25 @@
           </div>
           <div><p> </p></div>
           <div class="a-1c">
-            <div style="background-color: grey; padding-top: 16px; border: 3px solid; ">
+            <div style="background-color: rgb(173, 216, 255); padding-top: 16px; border: 3px solid; ">
              5
             </div>
-            <div style="background-color: grey; padding-top: 16px;">
+            <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
              3
             </div>
-            <div class="a123" id="id1" style="background-color: grey; padding-top: 16px; border: 3px solid; border-color: rgb(253, 2, 2);">
+            <div class="a123" id="id1" style="background-color: rgb(173, 216, 255); padding-top: 16px; border: 3px solid; border-color: rgb(253, 2, 2);">
              1
             </div>
-            <div style="background-color: grey; padding-top: 16px;">
+            <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
              2
             </div>
-            <div class="a345" id="id2" style="background-color: grey; padding-top: 16px; border: 3px solid; border-color: rgb(253,2,2);">
+            <div class="a345" id="id2" style="background-color: rgb(173, 216, 255); padding-top: 16px; border: 3px solid; border-color: rgb(253,2,2);">
              7
             </div>
-            <div style="background-color: grey; padding-top: 16px;">
+            <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
              27
             </div>
-            <div style="background-color: grey; padding-top: 16px;">
+            <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
              6
            </div>
      
@@ -563,25 +659,25 @@
 
         
           <div class="a-1d">
-            <div style="background-color: grey; padding-top: 16px; border: 3px solid; ">
+            <div style="background-color: rgb(173, 216, 255); padding-top: 16px; border: 3px solid; ">
              5
             </div>
-            <div style="background-color: grey; padding-top: 16px;">
+            <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
              3
             </div>
-            <div style="background-color: grey; padding-top: 16px;">
+            <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
              1
             </div>
-            <div style="background-color: grey; padding-top: 16px;">
+            <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
              2
             </div>
-            <div style="background-color: grey; padding-top: 16px;">
+            <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
              7
             </div>
-            <div style="background-color: grey; padding-top: 16px;">
+            <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
              27
             </div>
-            <div style="background-color: grey; padding-top: 16px;">
+            <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
              6
            </div>
           </div>
@@ -615,73 +711,73 @@
       </div>
           
       <div class="a-1e">
-        <div style="background-color: grey; padding-top: 16px; border: 3px solid; border-color: rgb(253, 2, 2); ">
+        <div style="background-color: rgb(173, 216, 255); padding-top: 16px; border: 3px solid; border-color: rgb(253, 2, 2); ">
          5
         </div>
-        <div style="background-color: grey; padding-top: 16px;">
+        <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
          3
         </div>
-        <div style="background-color: grey; padding-top: 16px;">
+        <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
          1
         </div>
-        <div style="background-color: grey; padding-top: 16px;border: 3px solid; border-color: rgb(253, 2, 2);">
+        <div style="background-color: rgb(173, 216, 255); padding-top: 16px;border: 3px solid; border-color: rgb(253, 2, 2);">
          2
         </div>
-        <div style="background-color: grey; padding-top: 16px;">
+        <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
          7
         </div>
-        <div style="background-color: grey; padding-top: 16px;">
+        <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
          27
         </div>
-        <div style="background-color: grey; padding-top: 16px;">
+        <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
          6
        </div>
       </div>
       <div><p> </p></div>
           <div class="a-1f">
-            <div style="background-color: grey; padding-top: 16px; border: 3px solid; border-color: rgb(253, 2, 2); ">
+            <div style="background-color: rgb(173, 216, 255); padding-top: 16px; border: 3px solid; border-color: rgb(253, 2, 2); ">
               2
              </div>
-             <div style="background-color: grey; padding-top: 16px;">
+             <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
               3
              </div>
-             <div style="background-color: grey; padding-top: 16px;">
+             <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
               1
              </div>
-             <div style="background-color: grey; padding-top: 16px; border: 3px solid;border-color: rgb(253, 2, 2); ">
+             <div style="background-color: rgb(173, 216, 255); padding-top: 16px; border: 3px solid;border-color: rgb(253, 2, 2); ">
               5
              </div>
-             <div style="background-color: grey; padding-top: 16px;">
+             <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
               7
              </div>
-             <div style="background-color: grey; padding-top: 16px;">
+             <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
               27
              </div>
-             <div style="background-color: grey; padding-top: 16px;">
+             <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
               6
              </div>
           </div>
           <div><p> </p></div>
           <div class="a-1g">
-            <div style="background-color: grey; padding-top: 16px; ">
+            <div style="background-color: rgb(173, 216, 255); padding-top: 16px; ">
               2
              </div>
-             <div style="background-color: grey; padding-top: 16px;">
+             <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
               3
              </div>
-             <div style="background-color: grey; padding-top: 16px;">
+             <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
               1
              </div>
-             <div style="background-color: grey; padding-top: 16px; border: 3px solid;">
+             <div style="background-color: rgb(173, 216, 255); padding-top: 16px; border: 3px solid;">
               5
              </div>
-             <div style="background-color: grey; padding-top: 16px;">
+             <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
               7
              </div>
-             <div style="background-color: grey; padding-top: 16px;">
+             <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
               27
              </div>
-             <div style="background-color: grey; padding-top: 16px;">
+             <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
               6
              </div>
           </div>
@@ -692,25 +788,25 @@
             </p>
           </div>
           <div class="a-1h">
-            <div style="background-color: grey; padding-top: 16px; ">
+            <div style="background-color: rgb(173, 216, 255); padding-top: 16px; ">
               2
              </div>
-             <div style="background-color: grey; padding-top: 16px;">
+             <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
               3
              </div>
-             <div style="background-color: grey; padding-top: 16px;">
+             <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
               1
              </div>
-             <div style="background-color: grey; padding-top: 16px; border: 3px solid;">
+             <div style="background-color: rgb(173, 216, 255); padding-top: 16px; border: 3px solid;">
               5
              </div>
-             <div style="background-color: grey; padding-top: 16px;">
+             <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
               7
              </div>
-             <div style="background-color: grey; padding-top: 16px;">
+             <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
               27
              </div>
-             <div style="background-color: grey; padding-top: 16px;">
+             <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
               6
              </div>
           </div>
@@ -726,13 +822,13 @@
           <div class="split-a">
             <div class="s-1">
               <div class="arr-1">
-                <div style="background-color: grey; padding-top: 16px;border: 3px solid; ">
+                <div style="background-color: rgb(173, 216, 255); padding-top: 16px;border: 3px solid; ">
                   2
                 </div>
-                <div style="background-color: grey; padding-top: 16px; ">
+                <div style="background-color: rgb(173, 216, 255); padding-top: 16px; ">
                   3
                 </div>
-                <div style="background-color: grey; padding-top: 16px; ">
+                <div style="background-color: rgb(173, 216, 255); padding-top: 16px; ">
                   1
                 </div>
               </div>
@@ -740,13 +836,13 @@
                 <p>Partition and quicksort functions will be called for this sub array</p>
               </div>
               <div class="arr-1a">
-                <div style="background-color: grey; padding-top: 16px; ">
+                <div style="background-color: rgb(173, 216, 255); padding-top: 16px; ">
                   1
                 </div>
-                <div style="background-color: grey; padding-top: 16px; border: 3px solid; ">
+                <div style="background-color: rgb(173, 216, 255); padding-top: 16px; border: 3px solid; ">
                   2
                 </div>
-                <div style="background-color: grey; padding-top: 16px; ">
+                <div style="background-color: rgb(173, 216, 255); padding-top: 16px; ">
                   3
                 </div>
               </div>
@@ -760,10 +856,10 @@
               </div>
             </div>
               <div class="arr-1c">
-                <div class="c1" style="background-color: grey; padding-top: 16px;border: 3px solid; ">
+                <div class="c1" style="background-color: rgb(173, 216, 255); padding-top: 16px;border: 3px solid; ">
                   1
                 </div>
-                <div class="c3" style="background-color: grey; padding-top: 16px; border: 3px solid; ">
+                <div class="c3" style="background-color: rgb(173, 216, 255); padding-top: 16px; border: 3px solid; ">
                   3
                 </div>
               </div>
@@ -771,17 +867,18 @@
               
 
 
+
               
             </div>
             <div class="s-2">
               <div class="arr-2">
-                <div style="background-color: grey; padding-top: 16px; border: 3px solid; ">
+                <div style="background-color: rgb(173, 216, 255); padding-top: 16px; border: 3px solid; ">
                   7
                 </div>
-                <div style="background-color: grey; padding-top: 16px; ">
+                <div style="background-color: rgb(173, 216, 255); padding-top: 16px; ">
                   27
                 </div>
-                <div style="background-color: grey; padding-top: 16px; ">
+                <div style="background-color: rgb(173, 216, 255); padding-top: 16px; ">
                   6
                 </div>
               </div>
@@ -792,13 +889,13 @@
 
               </div>
               <div class="arr-2a">
-                <div style="background-color: grey; padding-top: 16px;">
+                <div style="background-color: rgb(173, 216, 255); padding-top: 16px;">
                   6
                 </div>
-                <div style="background-color: grey; padding-top: 16px; border: 3px solid ">
+                <div style="background-color: rgb(173, 216, 255); padding-top: 16px; border: 3px solid ">
                   7
                 </div>
-                <div style="background-color: grey; padding-top: 16px; ">
+                <div style="background-color: rgb(173, 216, 255); padding-top: 16px; ">
                   27
                 </div>
               </div>
@@ -812,10 +909,10 @@
             </div>
 
               <div class="arr-2c">
-                <div class="c6" style="background-color: grey; padding-top: 16px; border: 3px solid;">
+                <div class="c6" style="background-color: rgb(173, 216, 255); padding-top: 16px; border: 3px solid;">
                   6
                 </div>
-                <div  class="c27" style="background-color: grey; padding-top: 16px;border: 3px solid; ">
+                <div  class="c27" style="background-color: rgb(173, 216, 255); padding-top: 16px;border: 3px solid; ">
                   27
                 </div>
               </div>
@@ -829,25 +926,25 @@
           </div>
           <div><p></p></div>
           <div class="final-a">
-            <div style="background-color: grey; padding-top: 16px;border: 3px solid;">
+            <div style="background-color: rgb(173, 216, 255); padding-top: 16px;border: 3px solid;">
              1
             </div>
-            <div style="background-color: grey; padding-top: 16px;border: 3px solid;">
+            <div style="background-color: rgb(173, 216, 255); padding-top: 16px;border: 3px solid;">
              2
             </div>
-            <div style="background-color: grey; padding-top: 16px;border: 3px solid;">
+            <div style="background-color: rgb(173, 216, 255); padding-top: 16px;border: 3px solid;">
              3
             </div>
-            <div style="background-color: grey; padding-top: 16px;border: 3px solid;">
+            <div style="background-color: rgb(173, 216, 255); padding-top: 16px;border: 3px solid;">
              5
             </div>
-            <div style="background-color: grey; padding-top: 16px;border: 3px solid;">
+            <div style="background-color: rgb(173, 216, 255); padding-top: 16px;border: 3px solid;">
              6
             </div>
-            <div style="background-color: grey; padding-top: 16px;border: 3px solid;">
+            <div style="background-color: rgb(173, 216, 255); padding-top: 16px;border: 3px solid;">
              7
             </div>
-            <div style="background-color: grey; padding-top: 16px;border: 3px solid;">
+            <div style="background-color: rgb(173, 216, 255); padding-top: 16px;border: 3px solid;">
              27
             </div>
           </div>
